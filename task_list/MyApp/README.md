@@ -26,6 +26,25 @@ public function unverified(): static
 
 bài 3: model and reading data
 
-- load dữ liệu ngay trên route bằng cách gọi tới App\Models\( model )
+- load dữ liệu ngay trên route bằng cách gọi tới App\Models\< model >
 
 bài 4: form and csrf protection
+- tạo form
+
+bài 5: validation storing data
+
+$request->validate
+
+bài 6: session, error flashmessages
+
+@hàm mới: @errors('< tên cột >')
+
+bài 7 edit
+
+bài 8: keep old values in form
+
+bài 9: Reusability (Route Model Binding Form Requests, Mass Assignment)
+
+bài 10. Reusing Blade Code - Subviews
+
+bài 11: dùng taiwin css
