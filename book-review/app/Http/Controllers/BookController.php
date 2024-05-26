@@ -15,6 +15,7 @@ class BookController extends Controller
         $title = $request->input('title');
         $filter = $request->input('filter', '');
 
+        //fn($query, $title) => $query->title($title) là 1 hàm ẩn danh và sản phẩm sẽ đc load ra nếu có title
         $books = Book::when(
             $title,
             fn($query, $title) => $query->title($title)
